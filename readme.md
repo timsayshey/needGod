@@ -1,3 +1,3 @@
-# Need God?
+# Need God
 
 Phonegap app
