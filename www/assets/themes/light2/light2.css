@@ -57,7 +57,6 @@
 }
 .ui-body-a,
 .ui-overlay-a {
-	border: 1px solid #8c8c8c /*{a-body-border}*/;
 	color: #656565 /*{a-body-color}*/;
 	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #eeeeee /*{a-body-shadow-color}*/;
 	background: #ffffff /*{a-body-background-color}*/;
@@ -84,7 +83,7 @@
 }
 
 .ui-body-a .ui-link {
-	color: #ed5f4c /*{a-body-link-color}*/;
+	color: #38c /*{a-body-link-color}*/;
 	font-weight: bold;
 }
 
@@ -97,7 +96,7 @@
 }
 
 .ui-body-a .ui-link:active {
-	color: #ed5f4c /*{a-body-link-active}*/;
+	color: #38c /*{a-body-link-active}*/;
 }
 
 .ui-btn-up-a {
@@ -234,7 +233,7 @@
 }
 
 .ui-body-b .ui-link {
-	color: #ed5f4c /*{b-body-link-color}*/;
+	color: #38c /*{b-body-link-color}*/;
 	font-weight: bold;
 }
 
@@ -247,7 +246,7 @@
 }
 
 .ui-body-b .ui-link:active {
-	color: #ed5f4c /*{b-body-link-active}*/;
+	color: #38c /*{b-body-link-active}*/;
 }
 
 .ui-btn-up-b {
@@ -317,8 +316,8 @@
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-bar-c {
-	border: 1px solid #ed5f4c /*{c-bar-border}*/;
-	background: #ed5f4c /*{c-bar-background-color}*/;
+	border: 1px solid #38c /*{c-bar-border}*/;
+	background: #38c /*{c-bar-background-color}*/;
 	color: #ffffff /*{c-bar-color}*/;
 	font-weight: bold;
 	text-shadow: 0 /*{c-bar-shadow-x}*/ 1px /*{c-bar-shadow-y}*/ 1px /*{c-bar-shadow-radius}*/ #444444 /*{c-bar-shadow-color}*/;
@@ -386,7 +385,7 @@
 }
 
 .ui-body-c .ui-link {
-	color: #ed5f4c /*{c-body-link-color}*/;
+	color: #38c /*{c-body-link-color}*/;
 	font-weight: bold;
 }
 
@@ -399,12 +398,12 @@
 }
 
 .ui-body-c .ui-link:active {
-	color: #ed5f4c /*{c-body-link-active}*/;
+	color: #38c /*{c-body-link-active}*/;
 }
 
 .ui-btn-up-c {
-	border: 1px solid #ed5f4c /*{c-bup-border}*/;
-	background: #ed5f4c /*{c-bup-background-color}*/;
+	border: 1px solid #38c /*{c-bup-border}*/;
+	background: #38c /*{c-bup-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{c-bup-color}*/;
 	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #444444 /*{c-bup-shadow-color}*/;
@@ -478,8 +477,8 @@ a.ui-link-inherit {
 /* Active class used as the "on" state across all themes
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-active {
-	border: 1px solid #ed5f4c /*{global-active-border}*/;
-	background: #ed5f4c /*{global-active-background-color}*/;
+	border: 1px solid #38c /*{global-active-border}*/;
+	background: #38c /*{global-active-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{global-active-color}*/;
 	cursor: pointer;
@@ -734,7 +733,7 @@ a.ui-link-inherit {
 }
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
-	background-color: #ed5f4c /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
+	background-color: #38c /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
 }
 
 /* loading icon */
@@ -879,15 +878,15 @@ a.ui-link-inherit {
 }
 .ui-focus,
 .ui-btn:focus {
-	-moz-box-shadow: inset 0px 0px 3px #ed5f4c /*{global-active-background-color}*/, 0px 0px 9px #ed5f4c /*{global-active-background-color}*/;
-	-webkit-box-shadow: inset 0px 0px 3px #ed5f4c /*{global-active-background-color}*/, 0px 0px 9px #ed5f4c /*{global-active-background-color}*/;
-	box-shadow: inset 0px 0px 3px #ed5f4c /*{global-active-background-color}*/, 0px 0px 9px #ed5f4c /*{global-active-background-color}*/;
+	-moz-box-shadow: inset 0px 0px 3px #38c /*{global-active-background-color}*/, 0px 0px 9px #38c /*{global-active-background-color}*/;
+	-webkit-box-shadow: inset 0px 0px 3px #38c /*{global-active-background-color}*/, 0px 0px 9px #38c /*{global-active-background-color}*/;
+	box-shadow: inset 0px 0px 3px #38c /*{global-active-background-color}*/, 0px 0px 9px #38c /*{global-active-background-color}*/;
 }
 .ui-input-text.ui-focus,
 .ui-input-search.ui-focus {
-	-moz-box-shadow: 0px 0px 12px #ed5f4c /*{global-active-background-color}*/;
-	-webkit-box-shadow: 0px 0px 12px #ed5f4c /*{global-active-background-color}*/;
-	box-shadow: 0px 0px 12px #ed5f4c /*{global-active-background-color}*/;	
+	-moz-box-shadow: 0px 0px 12px #38c /*{global-active-background-color}*/;
+	-webkit-box-shadow: 0px 0px 12px #38c /*{global-active-background-color}*/;
+	box-shadow: 0px 0px 12px #38c /*{global-active-background-color}*/;	
 }
 
 /* unset box shadow in browsers that don't do it right

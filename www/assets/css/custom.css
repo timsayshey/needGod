@@ -22,7 +22,7 @@ h2.ui-li-heading {
 }
 
 h3 {
-	color:#ED5F4C;
+	color:#38c;
 	font-size:18px;
 }
 
@@ -54,12 +54,6 @@ h3 {
 	font-weight:normal;
 }
 
-div#container {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-}
 #carbg {
 	background           : #7C7E85;
 	-moz-border-radius   : 8px;
