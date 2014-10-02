@@ -43,7 +43,8 @@
 	
 	<style type="text/css">
 		html,body {
-			overflow:scroll !important;	
+			overflow:scroll !important;
+			height:auto !important;
 		}
 		.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn, .ui-listview>li p {
 			overflow: auto !important;
@@ -176,10 +177,32 @@
           </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-theme="a" style="text-align:center;">
           <div class="part3"> </div>
-          <h2>Loading your test results!</h2>
+          <h2>Loading the test results!</h2>
           <h3>Just a moment...</h3>
+		  <div>
+		  	<div class="spinner">
+			  <div class="spinner-container container1">
+				<div class="circle1"></div>
+				<div class="circle2"></div>
+				<div class="circle3"></div>
+				<div class="circle4"></div>
+			  </div>
+			  <div class="spinner-container container2">
+				<div class="circle1"></div>
+				<div class="circle2"></div>
+				<div class="circle3"></div>
+				<div class="circle4"></div>
+			  </div>
+			  <div class="spinner-container container3">
+				<div class="circle1"></div>
+				<div class="circle2"></div>
+				<div class="circle3"></div>
+				<div class="circle4"></div>
+			  </div>
+			</div>
+		  </div>
         </div>
       </div>
       <div id="part4" data-role="page" data-theme="a">
