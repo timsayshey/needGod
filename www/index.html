@@ -3,7 +3,7 @@
 	<head>
 	<title>NeedGod</title>
 	<meta charset="utf-8">
-	<meta meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="HandheldFriendly" content="True">
@@ -26,6 +26,7 @@
 	<script src="assets/jqmobile/jquery.mobile-1.4.4.min.js"></script>
 	<script src="assets/js/application.js"></script>
 	<script type='application/javascript' src='assets/js/fastclick.js'></script>
+	
 	<script>
 	    // fast click
 	    window.addEventListener('load', function() {
@@ -41,17 +42,12 @@
 		}
 	</script>
 	
+	<script src="assets/iscroll/iscroll.js"></script>
+    <script src="assets/iscroll/jquery.mobile.iscrollview.js"></script>
+	<link rel="stylesheet" href="assets/iscroll/jquery.mobile.iscrollview.css"/>
+    <link rel="stylesheet" href="assets/iscroll/jquery.mobile.iscrollview-pull.css"/>
+	
 	<style type="text/css">
-		html {
-			overflow:scroll !important;
-			height:auto !important;
-			position: static !important;
-		}
-		body {
-			height:auto !important;
-			overflow:auto !important;
-			position: static !important;
-		}
 		.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn, .ui-listview>li p {
 			overflow: auto !important;
 			white-space: normal !important;
@@ -76,7 +72,7 @@
         </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="home"> </div>
           <h2>To find out if you are a good person, you must ask yourself some very important questions.</h2>
           <h3>Are you a good person?</h3>
@@ -94,7 +90,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part1"> </div>
           <h2>Here is a quick test you can take to find the answers...</h2>
           <div class="ui-grid-a">
@@ -111,7 +107,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part2"> </div>
           <h2>QUICK 8-QUESTION TEST</h2>
           <h4>This test is designed to answer 2 questions:</h4>
@@ -189,7 +185,7 @@
           </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a" style="text-align:center;">
+        <div data-role="content" data-iscroll data-theme="a" style="text-align:center;">
           <div class="part3"> </div>
           <h2>Loading the test results!</h2>
           <h3>Just a moment...</h3>
@@ -225,7 +221,7 @@
          </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part4"> </div>
           <ul data-role="listview">
             <li>
@@ -289,7 +285,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part5c"> </div>
           <h2>CORRECT: You would be guilty.</h2>
           <h3>Do you think you would go to <a href="#part6i">Heaven</a> or <a href="#part6c">Hell</a>?</h3>
@@ -307,7 +303,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part5i"> </div>
           <h2>INCORRECT</h2>
           <h3>It has already been established that you would 
@@ -340,7 +336,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part6c"> </div>
           <h2>CORRECT: You would go to Hell.</h2>
           <h3>Does the fact that you're headed for Hell concern you?</h3>
@@ -358,7 +354,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part6i"> </div>
           <h2>INCORRECT</h2>
           <h3>While it may seem that God's goodness will 
@@ -403,7 +399,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part7c"> </div>
           <h2>Good. It <em>should</em> concern you.</h2>
           <h3>It <em>should</em> concern you. Would you sell 
@@ -435,7 +431,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part7i"> </div>
           <h2>It <em>should</em> concern you.</h2>
           <h3>Would you sell one of your eyes for a million 
@@ -474,7 +470,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part7ii"> </div>
           <h2>The Bible  Describes <font color="#FF0000">Hell</font></h2>
           <h3>There are three words translated "Hell" in Scripture:<br>
@@ -556,7 +552,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="part8"> </div>
           <h2>What God did...</h2>
           <h3>Think of it this way... Imagine you're in a 
@@ -618,7 +614,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="psalm51"> </div>
           <h2>Psalm 51:1-17</h2>
           <h3>King David's Prayer of Repentance</h3>
@@ -672,7 +668,7 @@
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
         
-        <div data-role="content" data-theme="a">
+        <div data-role="content" data-iscroll data-theme="a">
           <div class="savePain"> </div>
           <h2>Save Yourself Some Pain</h2>
           <h3>Becoming a Christian is the most incredible event that will ever take place in your life. You have found peace with your Creator. You have found everlasting life! Be assured--God will never leave you nor forsake you. He has brought you this far and He will complete the wonderful work He has begun in you. God knows your every thought, your every care and your deepest concerns.</h3>
