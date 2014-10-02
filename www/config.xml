@@ -4,7 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.outerplex.needGod"
-        version   = "1.4.2">
+        version   = "1.4.2" 
+		versionCode = "12">
 
     <name>Good Person Test</name>
 
