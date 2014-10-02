@@ -3,7 +3,7 @@
 	<head>
 	<title>NeedGod</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<meta meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="HandheldFriendly" content="True">
@@ -27,10 +27,31 @@
 	<script src="assets/js/application.js"></script>
 	<script type='application/javascript' src='assets/js/fastclick.js'></script>
 	<script>
+	    // fast click
 	    window.addEventListener('load', function() {
 	    new FastClick(document.body);
 	    }, false);
+		
+		 // Disable back button
+		document.addEventListener("deviceready", onDeviceReady, false);
+			function onDeviceReady() {
+				document.addEventListener("backbutton", function (e) {
+					e.preventDefault();
+			}, false );
+		}
 	</script>
+	
+	<style type="text/css">
+		html,body {
+			overflow:scroll !important;	
+		}
+		.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn, .ui-listview>li p {
+			overflow: auto !important;
+			white-space: normal !important;
+		}
+		
+	</style>
+	
 	</head>
 	<body>
     <div id="container">
@@ -44,8 +65,8 @@
         
         <div data-role="content" data-theme="a">
           <div class="home"> </div>
-          <h2>To find out if you need God, you must ask yourself some very important questions.</h2>
-          <h3>Are you a good person... by God's standards?</h3>
+          <h2>To find out if you are a good person, you must ask yourself some very important questions.</h2>
+          <h3>Are you a good person?</h3>
           <h3>And if so... are you good enough to go to heaven?</h3>
           <div class="ui-grid-mono">
             <div class="ui-block-a"> <a href="#part1" data-role="button" data-icon="arrow-r" data-iconpos="right">Get Started</a> </div>
@@ -157,7 +178,7 @@
         
         <div data-role="content" data-theme="a">
           <div class="part3"> </div>
-          <h2>YOUR TEST IS BEING SCORED</h2>
+          <h2>Loading your test results!</h2>
           <h3>Just a moment...</h3>
         </div>
       </div>
