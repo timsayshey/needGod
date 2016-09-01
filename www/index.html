@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>NeedGod</title>
-	<meta charset="utf-8">
-	 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
+  <head>
+  <title>NeedGod</title>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
 
-	<!-- jQuery Mobile CSS bits -->
-	<link rel="stylesheet" href="assets/jqmobile/jquery.mobile.structure-1.4.4.min.css" />
-	<link rel="stylesheet" href="assets/jqmobile/jquery.mobile.theme-1.4.4.min.css" />
-	<link rel="stylesheet" href="assets/jqmobile/jquery.mobile.inline-svg-1.4.4.min.css" />
+  <!-- jQuery Mobile CSS bits -->
+  <link rel="stylesheet" href="assets/jqmobile/jquery.mobile.structure-1.4.4.min.css" />
+  <link rel="stylesheet" href="assets/jqmobile/jquery.mobile.theme-1.4.4.min.css" />
+  <link rel="stylesheet" href="assets/jqmobile/jquery.mobile.inline-svg-1.4.4.min.css" />
 
-	<!-- Custom css -->
+  <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/greentheme.css" />
-	<link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
 
-	<!-- Javascript includes -->
-	<script type="text/javascript" src="cordova.js"></script>
-	<script src="assets/js/jquery-1.11.0.min.js"></script>
-	<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="assets/js/mobileinit.js"></script>
-	<script src="assets/jqmobile/jquery.mobile-1.4.4.min.js"></script>
-	<script src="assets/js/application.js"></script>
-	<script type='application/javascript' src='assets/js/fastclick.js'></script>
-	
-	<script>
-	    // fast click
-	    window.addEventListener('load', function() {
-	    new FastClick(document.body);
-	    }, false);
-		
-		 // Disable back button
-		document.addEventListener("deviceready", onDeviceReady, false);
-			function onDeviceReady() {
-				document.addEventListener("backbutton", function (e) {
-					e.preventDefault();
-			}, false );
-		}
-	</script>
-	
-	<script src="assets/iscroll/iscroll.js"></script>
+  <!-- Javascript includes -->
+  <script type="text/javascript" src="cordova.js"></script>
+  <script src="assets/js/jquery-1.11.0.min.js"></script>
+  <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+  <script src="assets/js/mobileinit.js"></script>
+  <script src="assets/jqmobile/jquery.mobile-1.4.4.min.js"></script>
+  <script src="assets/js/application.js"></script>
+  <script type='application/javascript' src='assets/js/fastclick.js'></script>
+  
+  <script>
+      // fast click
+      window.addEventListener('load', function() {
+      new FastClick(document.body);
+      }, false);
+    
+     // Disable back button
+    document.addEventListener("deviceready", onDeviceReady, false);
+      function onDeviceReady() {
+        document.addEventListener("backbutton", function (e) {
+          e.preventDefault();
+      }, false );
+    }
+  </script>
+  
+  <script src="assets/iscroll/iscroll.js"></script>
     <script src="assets/iscroll/jquery.mobile.iscrollview.js"></script>
-	<link rel="stylesheet" href="assets/iscroll/jquery.mobile.iscrollview.css"/>
+  <link rel="stylesheet" href="assets/iscroll/jquery.mobile.iscrollview.css"/>
     <link rel="stylesheet" href="assets/iscroll/jquery.mobile.iscrollview-pull.css"/>
-	
-	<style type="text/css">
-		.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn, .ui-listview>li p {
-			overflow: auto !important;
-			white-space: normal !important;
-			position: static !important;
-		}
-		.ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {
-			top: auto !important;
-			left: auto !important;
-			width: auto !important;
-			position: static !important;
-		}
-	</style>
-	
-	</head>
-	<body>
+  
+  <style type="text/css">
+    .ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn, .ui-listview>li p {
+      overflow: auto !important;
+      white-space: normal !important;
+      position: static !important;
+    }
+    .ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {
+      top: auto !important;
+      left: auto !important;
+      width: auto !important;
+      position: static !important;
+    }
+  </style>
+  
+  </head>
+  <body>
     <div id="container">
       <div id="home" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
         </div>
         <!-- header -->
@@ -84,8 +84,8 @@
       </div>
       <div id="part1" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -101,8 +101,8 @@
       </div>
       <div id="part2" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -179,44 +179,44 @@
       </div>
       <div id="part3" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           </div>
         <!-- header -->
         
         <div data-role="content" data-iscroll data-theme="a" style="text-align:center;">
           <div class="part3"> </div>
-          <h2>Loading the test results!</h2>
-          <h3>Just a moment...</h3>
-		  <div>
-		  	<div class="spinner">
-			  <div class="spinner-container container1">
-				<div class="circle1"></div>
-				<div class="circle2"></div>
-				<div class="circle3"></div>
-				<div class="circle4"></div>
-			  </div>
-			  <div class="spinner-container container2">
-				<div class="circle1"></div>
-				<div class="circle2"></div>
-				<div class="circle3"></div>
-				<div class="circle4"></div>
-			  </div>
-			  <div class="spinner-container container3">
-				<div class="circle1"></div>
-				<div class="circle2"></div>
-				<div class="circle3"></div>
-				<div class="circle4"></div>
-			  </div>
-			</div>
-		  </div>
+          <h2>Please wait</h2>
+          <h3>Loading the results...</h3>
+      <div>
+        <div class="spinner">
+        <div class="spinner-container container1">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        </div>
+        <div class="spinner-container container2">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        </div>
+        <div class="spinner-container container3">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        </div>
+      </div>
+      </div>
         </div>
       </div>
       <div id="part4" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
          </div>
         <!-- header -->
@@ -225,7 +225,7 @@
           <div class="part4"> </div>
           <ul data-role="listview">
             <li>
-              <h2>YOUR SCORE</h2>
+              <h2>YOUR RESULTS</h2>
               <p>
               <h3>This test is designed to answer 2 questions:<br>
                 Are you a good person according to God's standards?<br>
@@ -279,8 +279,8 @@
       </div>
       <div id="part5c" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -297,8 +297,8 @@
       </div>
       <div id="part5i" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -330,8 +330,8 @@
       </div>
       <div id="part6c" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -348,8 +348,8 @@
       </div>
       <div id="part6i" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -393,8 +393,8 @@
       </div>
       <div id="part7c" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -425,8 +425,8 @@
       </div>
       <div id="part7i" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -464,8 +464,8 @@
       </div>
       <div id="part7ii" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -546,8 +546,8 @@
       </div>
       <div id="part8" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -608,8 +608,8 @@
       </div>
       <div id="psalm51" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
@@ -662,8 +662,8 @@
       </div>
       <div id="savePain" data-role="page" data-theme="a">
         <div data-role="header" 
-		data-theme="a"
-		data-position="fixed">
+    data-theme="a"
+    data-position="fixed">
           <h1>Good Person Test</h1>
           <a href="javascript:history.go(-1)" data-icon="arrow-l" data-iconpos="notext">Back</a> </div>
         <!-- header -->
