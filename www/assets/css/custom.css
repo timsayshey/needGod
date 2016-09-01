@@ -28,7 +28,7 @@ h3 {
 
 .ui-li-heading {
     font-size: 18px;
-	white-space:normal;
+	white-space:normal !important;
 }
 
 .ui-listview li.ui-li.ui-btn-up-a {
